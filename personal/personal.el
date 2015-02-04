@@ -16,3 +16,10 @@
 (add-to-list 'ac-modes 'clojure-mode)
 
 (setenv "LEIN_JVM_OPTS" "-XX:+UseG1GC")
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (clojure . t)
+   (visi . t)
+   ))
