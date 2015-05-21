@@ -39,3 +39,5 @@
 (require 'go-autocomplete)
 (require 'auto-complete-config)
 (ac-config-default)
+
+(setq prelude-whitespace nil)
